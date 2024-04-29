@@ -66,8 +66,7 @@
             <label for="hora">Hora que quiere reservar</label>
             <input type="time" name="hora" id="hora" required>
     <br>
-    <br>
-    <br>
+             
             <label for="comentario">Comentario adicional </label>
             <textarea name="comentario" id="comentario"></textarea>
     <br>
