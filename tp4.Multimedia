@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta</title>
+</head>
+<body>
+    <h1>Receta de alfajores de maicena </h1>  
+    <img src="img/alfajores.jpg" alt="imagen de alfajores de maicena" width="500">
+    <br>
+    <h3>Aqui un video corto para que vea lo facil y rico que salen los alfajores</h3>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@paulinacocina/video/7099587717163453701" 
+    data-video-id="7099587717163453701" style="max-width: 600px;min-width: 320px;" > <section> <a target="_blank" 
+    title="@paulinacocina" href="https://www.tiktok.com/@paulinacocina?refer=embed">@paulinacocina</a><a title="alfajores" target="_blank" href="https://www.tiktok.com/tag/alfajores?refer=embed">#alfajores</a> 
+    <a title="maicena" target="_blank" href="https://www.tiktok.com/tag/maicena?refer=embed">#maicena</a> 
+    <a title="argentina" target="_blank" href="https://www.tiktok.com/tag/argentina?refer=embed">#argentina</a>
+    <a target="_blank" title="♬ sonido original - Paulina Cocina" href="https://www.tiktok.com/music/sonido-original-7099587712168053509?refer=embed">♬ sonido original - Paulina Cocina</a> </section>
+    </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <br>
+    <h2>Ingredientes</h2>
+      <ul>
+        <li>150g de maicena</li>
+        <li>100g de harina</li>
+        <li>100g de manteca</li>
+        <li>80g de azucar</li>
+        <li>2 yemas</li>
+        <li>1 cucharadita de polvo para hornear</li>
+        <li>1 cucharadita de esencia de vainilla</li>
+        <li>Dulce de leche</li>
+        <li>Coco rallado</li>
+      </ul>
+
+    <h2>Preparacion</h2>
+      <ul>
+        <li>1. En un bold se mezcla la manteca con el azucar y la esencia de vainilla
+             hasta que este como una crema</li>
+        <li>2. Se agregan las 2 yemas y mezclar hasta que este todo bien integrado</li>
+        <li>3. Se agregan la harina, maicena y el polvo para hornear de apoco mientras se va mezclando</li>
+        <li>4. Cuando este la masa echa se deja reposar en la heladera por 1/2 horas</li>
+        <li>5. Se estira la masa y se hacen los cortes circulares (tamaño a su gusto)</li>
+        <li>6. Se ponen en el horno a 190° por 12min. o hasta que esten por la parte de abajo apenas dorados</li>
+        <li>7. Se dejan enfriar</li>
+        <li>8. Se aplica dulce de leche en el medio de dos tapitas</li>
+        <li>9. Se pasa por coco rallado</li> 
+      </ul>
+    <br>
+    <h3>A continuacion esta la receta explicada mas detallada</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ATIerXeAPts?si=cB2CFpWSpayIdYrS&amp;start=24" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+
+</body>
+</html>
