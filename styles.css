@@ -1,0 +1,43 @@
+/* Estilos para las tareas prácticas */
+.tarea {
+    margin: 20px 0; /* Espacio superior e inferior para separar las tareas */
+    padding: 20px; /* Relleno interno */
+    text-align: center; /* Centrar el texto */
+    color: #fff; /* Color de texto blanco */
+  }
+  
+  /* Tarea 1: Fondo de color */
+  .tarea1 {
+    background-color: rgb(204, 116, 235); /* Azul claro */
+    color: #fff;
+    border: 1px solid rgb(204, 116, 235); /* Azul acero */
+  }
+  
+  /* Tarea 2: Imagen de fondo */
+  .tarea2 {
+    background-image: url('https://via.placeholder.com/800x600'); /* Imagen de ejemplo */
+    background-size: cover; /* Cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #000; /* Texto negro para contraste */
+    border: 1px solid #ccc; /* Borde gris claro */
+  }
+  
+  /* Tarea 3: Bordes estilizados */
+  .tarea3 {
+    border-top: 5px solid red;
+    border-right: 5px dotted green;
+    border-bottom: 5px double blue;
+    border-left: 5px dashed orange;
+    background-color: #f0f8ff; /* Fondo azul muy claro */
+    color: #333;
+  }
+  
+  /* Tarea 4: Bordes redondeados */
+  .tarea4 {
+    background-color: #8a47ff54; /* Melocotón */
+    border: 2px solid #8a47ff; /* Rojo tomate */
+    border-radius: 15px; /* Bordes redondeados con un radio de 15px */
+    color: #333;
+  }
+  
