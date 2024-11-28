@@ -1,0 +1,113 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente sans-serif para el cuerpo del texto */
+    line-height: 1.6; /* Interlineado para mejorar la legibilidad */
+    margin: 20px; /* Márgenes alrededor del contenido */
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color del texto en gris oscuro */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+    background: #ff3366; /* Fondo rosa para el encabezado */
+    color: #ffffff; /* Color del texto en blanco */
+    padding: 10px 20px; /* Relleno de 10px arriba y abajo, 20px a los lados */
+    text-align: center; /* Centra el texto dentro del encabezado */
+    border-radius: 8px; /* Bordes redondeados para el encabezado */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background: #ff6699; /* Fondo rosa suave para la navegación */
+    color: white; /* Color blanco para el texto de los enlaces */
+    padding: 10px; /* Relleno de 10px en la barra de navegación */
+    border-radius: 8px; /* Bordes redondeados en la barra de navegación */
+    display: flex; /* Diseño flexible para la barra */
+    justify-content: space-around; /* Distribuye los enlaces equidistantemente */
+    margin-top: 10px; /* Margen superior para separar la navegación de otros elementos */
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación */
+nav a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Pone los enlaces en negrita */
+}
+
+/* Efecto hover para los enlaces de la barra de navegación */
+nav a:hover {
+    text-decoration: underline; /* Añade subrayado cuando se pasa el cursor */
+}
+
+/* Estilos para las secciones dentro de la página */
+section {
+    background: #ffffff; /* Fondo blanco para las secciones */
+    padding: 20px; /* Relleno de 20px dentro de las secciones */
+    margin-top: 15px; /* Margen superior entre las secciones */
+    border-radius: 8px; /* Bordes redondeados para las secciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las secciones */
+}
+
+/* Estilos para los encabezados h1 y h2 */
+h1, h2 {
+    color: #333; /* Color gris oscuro para los encabezados */
+}
+
+/* Estilos para las listas no ordenadas (ul) y ordenadas (ol) */
+ul, ol {
+    padding-left: 20px; /* Añade relleno a la izquierda de las listas */
+}
+
+/* Estilos para los elementos de lista no ordenada */
+ul li {
+    list-style-type: square; /* Usa cuadros en lugar de círculos para los elementos de lista */
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex; /* Usa un diseño flexible */
+    flex-direction: column; /* Los elementos del formulario se alinean en columna */
+    gap: 10px; /* Espacio de 10px entre los elementos del formulario */
+}
+
+/* Estilos para las etiquetas dentro del formulario */
+label {
+    font-weight: bold; /* Hace las etiquetas en negrita */
+}
+
+/* Estilos para los campos de entrada y las áreas de texto */
+input, textarea {
+    padding: 10px; /* Relleno de 10px dentro de los campos */
+    border: 1px solid #ccc; /* Borde gris claro alrededor de los campos */
+    border-radius: 5px; /* Bordes redondeados para los campos */
+}
+
+/* Efecto focus para los campos de entrada y área de texto */
+input:focus, textarea:focus {
+    border-color: #ff3366; /* Cambia el color del borde a rosa cuando el campo está enfocado */
+    outline: none; /* Elimina el contorno predeterminado */
+}
+
+/* Estilos para los botones */
+button {
+    background: #ff3366; /* Fondo rosa para el botón */
+    color: white; /* Texto blanco en el botón */
+    padding: 10px; /* Relleno de 10px en el botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background: #cc2852; /* Cambia el fondo a un rosa más oscuro al pasar el cursor */
+}
+
+/* Estilos para las imágenes de personajes */
+.personaje {
+    width: 100px; /* Establece el ancho de las imágenes de los personajes */
+    height: 245px; /* Mantiene la altura automática para las imágenes */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor de las imágenes */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
+}
