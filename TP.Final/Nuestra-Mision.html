@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestra Misión | Mundo Scout</title>
+  <link rel="stylesheet" href="paginas.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header class="header">
+    <h1>Mundo Scout</h1>
+    <nav aria-label="Menú de navegación principal">
+      <ul>
+        <li><a href="El-Escultismo.html" class="nav-link">El Escultismo</a></li>
+        <li><a href="Nuestra-Mision.html" class="nav-link active">Nuestra Misión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+   
+        <!-- Cronología -->
+        <section class="cronologia">
+          <h2>Cronograma del Movimiento Scout</h2>
+          <ul>
+            <li>
+              <img src="Imagenes/primer.campamento.png" alt="Campamento en Brownsea Island">
+              <span class="year">1907 - 1908 </span> 
+               <ul>
+                <li>El escultismo comenzó como un programa para niños de entre 11 y 18 años.</li>
+                <li>Se realiza el primer campamento con 20 niños en Brownsea Island, Inglaterra.</li>
+               </ul>
+            </li>
+            <li>
+              <img src="Imagenes/girls.guide.png" alt="Primer grupo scout femenino">
+              <span class="year">1910:</span> Baden-Powell fundó las Girl Guides bajo el liderazgo de su hermana, Agnes.
+            </li>
+            <li>
+              <img src="Imagenes/club.scout.rovers.png" alt="Scout de todas las edades">
+              <span class="year">1916 - 1918:</span> 
+               <ul>
+                <li>Se inician los Cub Scouts para niños menores de 11 años utilizando como inspiracion el “Libro de la Selva"</li>
+                <li>Se formó Rover Scouts para niños mayores y adultos jóvenes.</li>
+               </ul>
+            <li>
+              <img src="Imagenes/primer.jamboree.png" alt="Primer Jamboree Mundial">
+              <span class="year">1920:</span> Primer Jamboree Mundial.
+            </li>
+            <li>
+              <img src="Imagenes/en.las.guerras.png" alt="Scout ayudando en la guerra">
+              <span class="year">1914 - 1945:</span> Los Scouts apoyaron a sus países durante las guerras mundiales alimentando a los hambrientos y ayudando a los heridos.
+            </li>
+            <li>
+              <img src="Imagenes/trabajando.png" alt="Scout ayudando en la costa">
+              <span class="year">1980:</span> Se involucraron más con los problemas sociales, económicos y ambientales de sus comunidades y países. 
+            </li>
+            <li>
+              <img src="Imagenes/pandemia.png" alt="Ayudando en epoca de pandemia">
+              <span class="year">2020 - 2022</span> Los Scouts de todo el mundo tuvieron que tomar medidas para apoyar a sus comunidades y adaptarse a las restricciones globales a través de programas virtuales y en el hogar.
+          </ul>
+        </section>
+
+        <section class="impacto">
+          <h2>Impacto Global</h2>
+          <div class="texto-imagen">
+            <img src="Imagenes/impacto.png" alt="Scouts en haciendo limpieza en la playa" loading="lazy">
+            <div class="texto">
+              <p>
+                Hoy, el movimiento scout cuenta con más de 50 millones de miembros en 170 países. Los scouts trabajan en proyectos de reforestación, 
+                limpieza de ríos, y educación comunitaria.
+              </p>
+            </div>
+          </div>
+        </section>
+
+     <!-- FAQ -->
+     <section class="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿A qué edad se puede ser Scout?</summary>
+        <p>Si tenes entre 5 a 21 años podes unirte a scout en cualquier momento.Si tenes mas de 21 años tambien te podes unir como educadors</p>
+      </details>
+      <details>
+        <summary>¿Qué habilidades se aprenden siendo scout?</summary>
+        <p>Aprenderás habilidades como primeros auxilios, trabajo en equipo, liderazgo, y respeto por la naturaleza.</p>
+      </details>
+      <details>
+        <summary>¿Cómo me uno al movimiento scout?</summary>
+        <p>Puedes contactarnos a través de nuestro formulario o busca tu grupo scout mas cercano en el mapa.</p>
+      </details>
+    </section>
+
+
+    <!-- Formulario de Contacto -->
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <form action="enviar-formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  
+  <iframe src="https://www.google.com/maps/d/embed?mid=1kNUd6QXayU6tAYef5714B7P_r_69IYo&ehbc=2E312F" width="640" height="480"></iframe>
+
+  </main>
+  
+ <!-- Pie de página -->
+ <footer>
+  <nav class="footer-nav">
+    <ul>
+      <li><a href="El-Escultismo.html">El Escultismo</a></li>
+      <li><a href="Nuestra-Mision.html">Nuestra Mision</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 2024 Mundo Scout</p>
+  <p>Desarrollado por <strong>Fatima Vera</strong></p>
+</footer>
+</body>
+</html>
+
+
+
+

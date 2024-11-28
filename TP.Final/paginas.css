@@ -1,0 +1,293 @@
+/* Importar fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Configuración General */
+body {
+  font-family: 'Raleway', Arial, sans-serif; /* Fuente principal del sitio */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina los rellenos predeterminados */
+  line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+  color: #333; /* Color del texto en tonos oscuros */
+  background-color: white; /* Fondo blanco para claridad */
+}
+
+/* Layout General */
+main {
+  display: grid; /* Usar CSS Grid Layout para organizar el contenido */
+  grid-template-columns: repeat(6, 1fr); /* Crear 6 columnas iguales */
+  gap: 20px; /* Espaciado entre los elementos del grid */
+  padding: 20px; /* Espaciado interno en el contenedor principal */
+  max-width: 1200px; /* Ancho máximo para centrar contenido */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Header */
+header {
+  color: white; /* Texto blanco para contraste */
+  background-image: url(Imagenes/fondo.png) ;
+  background-size: cover;
+  background-position: center;
+  text-align: center; /* Centrar texto */
+  padding: 15% 10%; /* Espaciado interno del header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera para profundidad */
+}
+
+header h1 {
+  margin: 0; /* Elimina márgenes predeterminados */
+  font-size: 2rem; /* Tamaño de texto grande para el título */
+  font-weight: 700; /* Negrita para resaltar el título */
+}
+
+/* Barra de navegación */
+nav ul {
+  list-style: none; /* Elimina los puntos de las listas */
+  padding: 0; /* Sin relleno interno */
+  margin: 10px 0 0; /* Margen superior para separar del título */
+  display: flex; /* Diseño horizontal para los enlaces */
+  justify-content: center; /* Centrar enlaces horizontalmente */
+  gap: 15px; /* Espacio entre los enlaces */
+}
+
+nav a {
+  text-decoration: none; /* Elimina subrayado */
+  color: white; /* Texto blanco */
+  font-weight: bold; /* Peso negrita para resaltar los enlaces */
+  padding: 10px 15px; /* Espaciado interno del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave para efectos */
+}
+
+nav a:hover {
+  background-color: #f1f2f27a; /* Fondo más claro cuando pasa el ratón */
+}
+
+nav a.active {
+  background-color: #f1f2f233; /* Fondo verde intermedio cuando está activo */
+}
+
+/* Cronograma */
+.cronologia ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0;
+}
+
+.cronologia li {
+  display: flex; /* Usa Flexbox para alinear los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+  gap: 15px; /* Espacio entre la imagen y el texto */
+  margin: 20px 0; /* Espaciado entre los elementos de la lista */
+  border-left: 4px outset #2a8b5e; /* Línea decorativa */
+  padding: 10px; /* Relleno interno */
+  background: #fff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(220, 18, 18, 0.1); /* Sombra sutil */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.cronologia img {
+  width: 120px; /* Ancho fijo para las imágenes */
+  height: auto; /* Mantiene las proporciones */
+  border-radius: 8px; /* Bordes redondeados */
+  object-fit: cover; /* Ajusta la imagen si es necesario */
+}
+
+.cronologia .year {
+  font-weight: bold; /* Negrita para destacar el año */
+  color: #2a8b5e; /* Color verde para el año */
+  margin-right: 10px; /* Espaciado después del año */
+}
+
+.cronologia li span {
+  display: inline-block; /* Asegura que el texto quede alineado correctamente */
+}
+
+
+/* Estilos para las tarjetas de ramas */
+.rama-card {
+  display: flex; /* Usa flexbox para alinear el contenido horizontalmente */
+  align-items: center; /* Alinea verticalmente el contenido dentro de la tarjeta */
+  gap: 15px; /* Espacio entre la imagen y el texto */
+  background: #f9f9f9; /* Fondo gris claro */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 15px; /* Margen interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse sobre una tarjeta */
+.rama-card:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la intensidad de la sombra */
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.rama-img {
+  width: 120px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantén las proporciones */
+  border-radius: 8px; /* Bordes ligeramente redondeados */
+  flex-shrink: 0; /* Evita que la imagen se reduzca al tamaño mínimo */
+}
+
+/* Estilos para el texto en las tarjetas */
+.rama-card h3 {
+  margin-bottom: 5px; /* Espaciado inferior del título */
+  font-size: 1.2em; /* Tamaño de fuente */
+  color: #4CAF50; /* Color verde */
+}
+
+.rama-card p {
+  margin: 5px 0; /* Márgenes para el texto */
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  color: #555; /* Color gris */
+}
+
+.rama-card strong {
+  color: #333; /* Color gris oscuro */
+}
+
+.instagram-post {
+  grid-column-end: auto;/* Centra el contenido horizontalmente */
+  margin: 0 auto; /* Agrega márgenes automáticos para centrar verticalmente */
+}
+
+/* Secciones */
+section {
+  grid-column: span 6; /* La sección ocupa las 6 columnas del grid */
+  background-color: rgb(253, 251, 251); /* Fondo claro */
+  border-radius: 8px; /* Esquinas redondeadas */
+  padding: 20px; /* Espaciado interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+}
+
+section h2 {
+  color: #5a7d5c; /* Títulos en verde */
+  font-size: 1.8rem; /* Tamaño grande para los títulos */
+  margin-bottom: 10px; /* Espacio inferior del título */
+}
+
+section p {
+  margin-bottom: 15px; /* Espaciado entre párrafos */
+}
+
+section img, section video {
+  max-width: 100%; /* Imagen o video no exceden el ancho disponible */
+  height: auto; /* Mantener proporciones */
+  border-radius: 8px; /* Esquinas redondeadas */
+  margin-top: 10px; /* Espaciado superior */
+}
+
+.impacto {
+  text-align: center;
+}
+
+.texto-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-imagen img {
+  margin-right: 20px; /* Añade un margen a la derecha de la imagen */
+}
+
+/* Interactividad de FAQ */
+.faq article {
+  margin-bottom: 15px; /* Separación entre artículos */
+  padding: 10px; /* Espaciado interno */
+  background-color: #f1f1f1; /* Fondo claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+details {
+  margin-bottom: 10px; /* Separación entre elementos desplegables */
+  background-color: #fff; /* Fondo blanco */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+}
+
+details summary {
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-weight: bold; /* Resalta el texto del resumen */
+}
+
+details[open] summary {
+  color: #5a7d5c; /* Texto verde cuando está desplegado */
+}
+
+details[open] {
+  background-color: #f9f9f9; /* Fondo más claro cuando está abierto */
+  border-color: #5a7d5c; /* Borde verde cuando está abierto */
+}
+
+/* Formularios */
+form {
+  display: grid; /* Usar diseño basado en grid */
+  grid-template-columns: 1fr; /* Una columna */
+  gap: 15px; /* Espaciado entre elementos */
+}
+
+form label {
+  font-weight: 700; /* Resaltar etiquetas */
+}
+
+form input, form textarea, form button {
+  font-size: 1rem; /* Tamaño de texto estándar */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+form input:focus, form textarea:focus {
+  border-color: #5a7d5c; /* Borde verde al enfocar */
+  outline: none; /* Elimina borde azul predeterminado */
+  box-shadow: 0 0 5px rgba(90, 125, 92, 0.5); /* Sombra para efecto de enfoque */
+}
+
+form button {
+  background-color: #5a7d5c; /* Fondo verde */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cambia cursor al pasar por encima */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+form button:hover {
+  background-color: #3f5b42; /* Fondo más oscuro al interactuar */
+  box-shadow: 0 4px 8px rgba(63, 91, 66, 0.5); /* Sombra más pronunciada */
+}
+
+iframe {
+  margin: auto;
+  display: block;
+}
+
+/* Footer */
+footer {
+  background-color: #333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 15px; /* Espaciado interno */
+  text-align: center; /* Centrar contenido */
+}
+
+footer nav ul {
+  list-style: none; /* Elimina viñetas */
+  padding: 0; /* Sin relleno */
+  margin: 10px 0; /* Separación del resto del contenido */
+  display: flex; /* Usa Flexbox para alinear los enlaces */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 20px; /* Espaciado entre enlaces */
+}
+
+footer nav ul li a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: 400; /* Peso normal */
+  padding: 5px 10px; /* Espaciado interno */
+  transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
+}
+
+footer nav ul li a:hover {
+  background-color: #5a7d5c; /* Fondo verde al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
